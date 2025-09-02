@@ -20,4 +20,17 @@
 // Q 07: Que se passe-t-il si un programme atteint la fin de la fonction main sans exécuter un return ? 
 // Si main se termine sans return, le programme se termine normalement comme si return 0; avait été exécuté, surtout avec les standards C modernes.
 
-// 
+// Q 08: Le compilateur supprime-t-il un commentaire entièrement ou le remplace-t-il par un espace blanc ?
+// Le compilateur supprime-t-il un commentaire entièrement .
+
+// Q 09: Q 09: Comment puis-je savoir si mon programme a un commentaire non terminé ? 
+// On peut savoir qu’il y a un commentaire non terminé si le compilateur affiche des erreurs ou des avertissements lors de la compilation, ou si le programme ne se compile pas.
+
+// Q 10 :Q 10: Est-il légal d'imbriquer un commentaire à l'intérieur d'un autre ? 
+// Non, il n’est pas légal d’imbriquer des commentaires en C ; cela provoquera une erreur de compilation.
+
+// Q 11: D'où vient le nom du type float ? 
+// Le nom float vient de “floating-point”, car ce type stocke des nombres réels avec une virgule flottante.
+
+// Q 12: Pourquoi les constantes à virgule flottante doivent-elles se terminer par la lettre f ? 
+// Parce qu’en C, les nombres à virgule sont **double par défaut**, et la lettre **`f`** indique que la constante est un **float**, évitant ainsi la conversion automatique et améliorant la précision.
